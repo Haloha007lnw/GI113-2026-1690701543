@@ -12,7 +12,41 @@ namespace Lab02
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string bossName = "Kirin";
+            char rank = 'E';
+            int level = 0;
+            int maxHp = 240;
+            int currentHp = 175;
+            float attackPower = 42.5f;
+            double critMultiplier = 1.75;
+            bool isBoss = true;
+            
+            Console.WriteLine("===== Boss STATUS : INITIAL =====");
+            Console.WriteLine($"Name : {bossName}");
+            Console.WriteLine($"Rank : {rank}");
+            Console.WriteLine($"HP   : {currentHp}  / {maxHp}");
+            Console.WriteLine($"Attack Power : {attackPower}");
+            Console.WriteLine($"Crit Multiplier : {critMultiplier}");
+            Console.WriteLine($"Is Boss : {isBoss}");
+            Console.WriteLine();
+            
+            int hpPercent = currentHp * 100 / maxHp;
+            Console.WriteLine($"HP Percent  : {hpPercent}%");
+            Console.WriteLine();
+
+            Console.WriteLine($"Kirin takes damage of 60 damage.");
+            currentHp -= 60;
+            Console.WriteLine();
+
+            Console.WriteLine("===== Boss STATUS : AFTER DAMAGE =====");
+            Console.WriteLine($"HP   : {currentHp}  / {maxHp}");
+            hpPercent = currentHp * 100 / maxHp;
+            Console.WriteLine($"HP Percent  : {hpPercent}%");
+            Console.WriteLine();
+         
+
+
+
         }
     }
 }
