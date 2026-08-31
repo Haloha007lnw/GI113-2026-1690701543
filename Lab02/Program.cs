@@ -118,8 +118,8 @@ namespace Lab02
             Console.WriteLine($"Attack Power : {rogueAttackPower}");
             Console.WriteLine($"Is Rogue : {isRogue}");
 
-
-
+            
+            
 
 
         }
