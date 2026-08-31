@@ -44,7 +44,7 @@ namespace Lab02
             hpPercent = currentHp * 100 / maxHp;
             Console.WriteLine($"HP Percent  : {hpPercent}%");
             // ========================== Part B    theme  adventure game   ========================== //
-            Console.WriteLine("====== ADVENTURE GAME PARTY STATUS  =====");
+            Console.WriteLine("\n====== ADVENTURE GAME PARTY STATUS  =====");
             string playerName    = "Halo";    // warrior player //
             char   partyRank   = 'E';
             int    haloLevel   = 1;
@@ -117,6 +117,10 @@ namespace Lab02
             Console.WriteLine($"Stamina Regen Rate : {staminaRegenRate}");
             Console.WriteLine($"Attack Power : {rogueAttackPower}");
             Console.WriteLine($"Is Rogue : {isRogue}");
+
+
+
+
 
         }
     }
