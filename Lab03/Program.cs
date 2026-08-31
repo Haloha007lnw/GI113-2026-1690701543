@@ -1,15 +1,15 @@
-﻿namespace Lab03
+﻿/*
+  * Student ID : 1590701543
+  * Name       : ภูสิทธิ์ บุญเซ่ง
+  * Section    : 129B
+  * No.        :  NA
+   * Course     : GI113 Computer Programming (GI)
+   */
+namespace Lab03
 {
     internal class Program
     {
-        /*
-    * Student ID : 1590701543
-    * Name       : ภูสิทธิ์ บุญเซ่ง
-    * Section    : 129B
-    * No.        :  NA
-     * Course     : GI113 Computer Programming (GI)
-     */
-       
+
         static void Main(string[] args)
         {
             const int Maxlevel = 10;
