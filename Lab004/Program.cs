@@ -51,11 +51,6 @@ namespace Lab004
             Console.WriteLine($"Valid input: {slotOk}");
             Console.WriteLine($"Slot: {slot}");
 
-
-
-
-
-
         }
     }
 }
