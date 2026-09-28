@@ -10,7 +10,7 @@ Repository ส่วนตัวของวิชา **GI113 Computer Programmi
 ชื่อ-นามสกุล:  Pusit Boonseng
 Section:     129B
 รหัสนักศึกษา: 1690701543
-เลขที่:       NA
+เลขที่:       24
 ```
 
 ## กติกาการตั้งชื่อ (Naming Convention)
